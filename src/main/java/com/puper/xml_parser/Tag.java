@@ -1,3 +1,5 @@
+package com.puper.xml_parser;
+
 /**
  * Created by Puper on 27/3/2017.
  */
@@ -33,7 +35,7 @@ public class Tag {
 
     @Override
     public String toString() {
-        return "{\n Name: \"" + getTagName() + "\"\n" +
+        return "{\nName: \"" + getTagName() + "\"\n" +
                 "Type: \"" + getTagType() + "\"\n" +
                 "Line: " + getLineNum() + "\n" +
                 "Context: \"" + getContext() +  "\"\n}";
